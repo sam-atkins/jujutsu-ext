@@ -1,0 +1,19 @@
+manifestVersion: 1
+
+name: "@dismal_swamper/jujutsu"
+version: "2026.09.19.1"
+description: "Publish working-copy changes from a jj (jujutsu) repository with a change-based bookmark"
+repository: "https://github.com/sam-atkins/jujutsu-ext"
+
+models:
+  - jujutsu.ts
+
+additionalFiles:
+  - README.md
+  - LICENSE.md
+
+labels:
+  - jj
+  - jujutsu
+  - vcs
+  - publish
