@@ -71,6 +71,7 @@ async function failAndThrow(
   throw new Error(`${label} failed (exit ${ran.code}): ${detail}`);
 }
 
+/** Model definition for publishing jj working-copy changes. */
 export const model = {
   type: "@dismal_swamper/jujutsu",
   version: "2026.09.19.1",
